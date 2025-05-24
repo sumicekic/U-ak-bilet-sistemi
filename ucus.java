@@ -19,7 +19,7 @@ public class ucus {
         }
         return false;
     }
-@Override
+    @Override
     public String toString() {
         return kalkis + " -> " + varis + " | Saat: " + saat + " | Uçak: " + ucak;
     }

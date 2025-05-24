@@ -13,4 +13,15 @@ this.yas = yas;
 this.ucus = ucus;
     }
 
+    public void kaydet() {
+        try (FileWriter writer = new FileWriter("rezervasyonlar.csv", true)) {
+            writer.write(ad + "," + soyad + "," + yas + "," + ucus.toString() + "\n");
+        } catch (IOException e) {
+            System.out.println("Dosya yazılırken hata oluştu: " + e.getMessage());
+        }
+    }
+    @Override
+    public String toString() {
+        return ad + " " + soyad + " | Yaş: " + yas + " | " + ucus;
+    }
 }

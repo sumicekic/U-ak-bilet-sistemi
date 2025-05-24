@@ -12,4 +12,9 @@
 public int getKapasite() {
     return kapasite;
     }
+
+    @Override
+    public String toString() {
+        return marka + " " + model + " (" + seriNo + ") - Kapasite: " + kapasite;
+    }
 }
