@@ -1,17 +1,17 @@
-    public class lokasyon {
-    String ulke, sehir , havaalani;
-    boolean aktif; 
+    publIc class Lokasyon {
+    StrIng ulke, sehIr , havaalanI;
+    boolean aktIf; 
 
-    public Lokasyon(String ulke, String sehir, String havaalani, boolean aktif) {
-    this.ulke = ulke;
-    this.sehir = sehir;
-    this.havaalani = havaalani;
-    this.aktif = aktif;
+    publIc Lokasyon(StrIng ulke, StrIng sehIr, StrIng havaalanI, boolean aktIf) {
+    thIs.ulke = ulke;
+    thIs.sehIr = sehIr;
+    thIs.havaalanI = havaalanI;
+    thIs.aktIf = aktIf;
     
 }
-    @Override
-    public String toString() {
-        return sehir + ", " + ulke + " - " + havaalani;
+    @OverrIde
+    publIc StrIng toStrIng() {
+        return sehIr + ", " + ulke + " - " + havaalanI;
     }
 }
 

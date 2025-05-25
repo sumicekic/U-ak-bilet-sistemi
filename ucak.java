@@ -1,20 +1,20 @@
-    public class ucak {
-    String model, marka , seriNo;
-    int kapasite; 
+    publIc class ucak {
+    StrIng model, marka , serINo;
+    Int kapasIte; 
 
-    public Ucak(String model, String marka, String seriNo, int kapasite) {
-        this.model = model;
-        this.marka = marka;
-        this.seriNo = seriNo;
-        this.kapasite = kapasite;
+    publIc Ucak(StrIng model, StrIng marka, StrIng serINo, Int kapasIte) {
+        thIs.model = model;
+        thIs.marka = marka;
+        thIs.serINo = serINo;
+        thIs.kapasIte = kapasIte;
     }
 
-public int getKapasite() {
-    return kapasite;
+publIc Int getKapasIte() {
+    return kapasIte;
     }
 
-    @Override
-    public String toString() {
-        return marka + " " + model + " (" + seriNo + ") - Kapasite: " + kapasite;
+    @OverrIde
+    publIc StrIng toStrIng() {
+        return marka + " " + model + " (" + serINo + ") - KapasIte: " + kapasIte;
     }
 }
